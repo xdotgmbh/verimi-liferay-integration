@@ -1,0 +1,5 @@
+Fragment-Host: com.liferay.portal.security.sso.openid.connect.impl;bundle-version="[3.0.4,3.0.4]"
+
+Export-Package: \
+    com.nimbusds.openid.connect.sdk.claims;version=6.7,\
+    com.liferay.portal.security.sso.openid.connect.internal

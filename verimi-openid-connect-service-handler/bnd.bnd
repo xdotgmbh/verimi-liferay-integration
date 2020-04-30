@@ -1,0 +1,23 @@
+Conditional-Package: \
+    javax.mail.internet,\
+    javax.mail,\
+    javax.mail.event,\
+    javax.mail.search,\
+    javax.mail.util
+
+Import-Package: \
+    !com.google.crypto.tink.subtle,\
+    !org.bouncycastle.asn1,\
+    !org.bouncycastle.asn1.pkcs,\
+    !org.bouncycastle.asn1.x509,\
+    !org.bouncycastle.cert,\
+    !org.bouncycastle.cert.jcajce,\
+    !org.bouncycastle.crypto,\
+    !org.bouncycastle.crypto.engines,\
+    !org.bouncycastle.crypto.modes,\
+    !org.bouncycastle.crypto.params,\
+    !org.bouncycastle.openssl,\
+    !org.bouncycastle.openssl.jcajce,\
+    !org.cryptomator.siv,\
+    !com.sun.mail.util,\
+    *
